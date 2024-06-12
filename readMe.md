@@ -1,6 +1,6 @@
 About
 ------------
-This is a tool for the data preparation stage for the [Github Customer Service Agent](https://github.com/silviachen46/RAG_CustomerAgent), a continuation of the great work by ima9428@rit.edu and ibrr1@hotmail.com.
+This is a tool for the data preparation stage for the [Github Customer Service Agent](https://github.com/silviachen46/RAG_CustomerAgent), and also a continuation of the great work by ima9428@rit.edu and ibrr1@hotmail.com.
 
 A couple of functionalities added: This new work skips PRs and only crawls issue tickets to save up github api request usage.
 Now it also crawls comment history, user actions(mentioning another PR or issues), and labels are now combined to generated in a single file. Also, it crawls all images in each ticket and pass to [the BLIP](https://huggingface.co/Salesforce/blip-image-captioning-base) to convert to descriptive text as a part of the comment history.
